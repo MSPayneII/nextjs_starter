@@ -2,7 +2,7 @@ import { MongoClient } from "mongodb";
 
 async function connectDatabase() {
   const client = await MongoClient.connect(
-    "mongodb+srv://admin:research@cluster0.5b0qu6c.mongodb.net/events?retryWrites=true&w=majority"
+    //removed. you will need a key
   );
 
   return client;
